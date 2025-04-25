@@ -1,13 +1,13 @@
-package com.eci.arcn.producer_service;
+package com.eci.arcn.consumer_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProducerServiceApplication {
+public class ConsumerServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProducerServiceApplication.class, args);
+		SpringApplication.run(ConsumerServiceApplication.class, args);
 	}
 
 }
