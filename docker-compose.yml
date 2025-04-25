@@ -43,7 +43,7 @@ services:
   # Servicio Consumidor
   consumer:
     image: jeffer07/queue_rabbit_mq
-    container_name: queue_rabbit_mq
+    container_name: consumer_queue_rabbit_mq
     depends_on:
       - rabbitmq
     environment:
