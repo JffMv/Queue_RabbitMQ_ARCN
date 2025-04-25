@@ -23,7 +23,7 @@ services:
   # Servicio Productor
   producer:
     image: jeffer07/queue_rabbit_mq
-    container_name: queue_rabbit_mq
+    container_name: producer_queue_rabbit_mq
     ports:
       - "8080:8080" # Expone el puerto del API REST del productor
     depends_on:
