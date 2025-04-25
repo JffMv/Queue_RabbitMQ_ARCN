@@ -15,7 +15,7 @@ Para ejecutar este proyecto, necesitas instalar:
 4. **RabbitMQ** (si no usas Docker, puedes instalarlo localmente).
 
 ---
-## ¿cómo correr desde docker?
+## ¿Cómo correr desde docker?
 1. Clona el repositorio:
    ```
    git clone <url-del-repositorio>
@@ -173,3 +173,7 @@ Se muestra de la siguiente manera:
 ## Autor
 **Jeffer07**  
 Este proyecto fue desarrollado como una práctica para aprender sobre mensajería asíncrona con RabbitMQ y Spring Boot.
+
+## Source
+Clase de ARCN y guia de laboratorio:
+[Link del laboratorio](https://eci-arcn.github.io/Labs/event-driven-lab/)
