@@ -116,6 +116,8 @@ El proyecto puede desplegarse en cualquier entorno que soporte Docker, como:
 2. **Logs del consumidor**: Muestra los mensajes procesados.
 3. **API del productor**: Envía mensajes a través de `http://localhost:8080/api/messages/send`.
 
+![alt text](image.png)
+
 ---
 
 ## Autor
